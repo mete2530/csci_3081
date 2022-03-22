@@ -1,0 +1,94 @@
+\hypertarget{namespacerouting}{}\doxysection{routing Namespace Reference}
+\label{namespacerouting}\index{routing@{routing}}
+
+
+use ruting structure \mbox{\hyperlink{structrouting_1_1BoundingBox}{Bounding\+Box}} ~\newline
+  
+
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classrouting_1_1AStar}{A\+Star}}
+\item 
+struct \mbox{\hyperlink{structrouting_1_1BoundingBox}{Bounding\+Box}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1DepthFirstSearch}{Depth\+First\+Search}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1Dijkstra}{Dijkstra}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1DistanceFunction}{Distance\+Function}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1EuclideanDistance}{Euclidean\+Distance}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1GraphBase}{Graph\+Base}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1IGraph}{I\+Graph}}
+\begin{DoxyCompactList}\small\item\em class \mbox{\hyperlink{classrouting_1_1IGraph}{I\+Graph}} will getnodes, getbounding box, nearest nodes, and get the path for destination and statedgy \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classrouting_1_1IGraphFactory}{I\+Graph\+Factory}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1IGraphNode}{I\+Graph\+Node}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1RoutingAPI}{Routing\+A\+PI}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1RoutingStrategy}{Routing\+Strategy}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1SimpleGraph}{Simple\+Graph}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1SimpleGraphNode}{Simple\+Graph\+Node}}
+\item 
+class \mbox{\hyperlink{classrouting_1_1ZeroDistance}{Zero\+Distance}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacerouting_a918016e0b64d0277643e3d108d956e0e}\label{namespacerouting_a918016e0b64d0277643e3d108d956e0e}} 
+std\+::ostream \& {\bfseries operator$<$$<$} (std\+::ostream \&os, const \mbox{\hyperlink{structrouting_1_1BoundingBox}{Bounding\+Box}} \&bb)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+use ruting structure \mbox{\hyperlink{structrouting_1_1BoundingBox}{Bounding\+Box}} ~\newline
+ 
+
+run routing routing\+Stratedgy which will find route from point striing to point string
+
+routting\+A\+PI will load a file and add factory to factory
+
+class \mbox{\hyperlink{classrouting_1_1AStar}{A\+Star}} which uses cost and heuristc
+
+will create graph using graph factory given string file
+
+routing calualtes the distance between distance function, euclidean distance , and zero distance
+
+@parm inputs floats min , float max, float point
+
+\begin{DoxyReturn}{Returns}
+operator ostream of os and bb
+\end{DoxyReturn}
+@parm float vectors a and b
+
+\begin{DoxyReturn}{Returns}
+float sum
+\end{DoxyReturn}
+@parm string file, Igraph\+Factory
+
+\begin{DoxyReturn}{Returns}
+return Create path
+\end{DoxyReturn}
+@parm I\+Graph$\ast$ graph, std\+::string\& from, std\+::string\& to
+
+\begin{DoxyReturn}{Returns}
+shall return the astar of type \mbox{\hyperlink{classrouting_1_1AStar}{A\+Star}} by Routing\+Straedgy
+\end{DoxyReturn}
+@parm inuts of file and factory
+
+\begin{DoxyReturn}{Returns}
+will return I\+Graph$\ast$ loaded from file ~\newline
+
+\end{DoxyReturn}
+@parm inputs \mbox{\hyperlink{classrouting_1_1IGraph}{I\+Graph}} graph, string from , and string to
+
+\begin{DoxyReturn}{Returns}
+will return path from point to point 
+\end{DoxyReturn}

@@ -1,0 +1,6 @@
+<map id="routing::RoutingStrategy" name="routing::RoutingStrategy">
+<area shape="rect" id="node1" title=" " alt="" coords="65,5,246,32"/>
+<area shape="rect" id="node2" href="$classrouting_1_1AStar.html" title=" " alt="" coords="13,80,124,107"/>
+<area shape="rect" id="node4" href="$classrouting_1_1DepthFirstSearch.html" title=" " alt="" coords="149,80,335,107"/>
+<area shape="rect" id="node3" href="$classrouting_1_1Dijkstra.html" title=" " alt="" coords="5,155,132,181"/>
+</map>
